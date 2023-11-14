@@ -122,23 +122,23 @@ h6 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-#topbar .contact-info a {
+#topbar .lokasi-info a {
   line-height: 0;
   color: rgba(255, 255, 255, 0.6);
   transition: 0.3s;
 }
 
-#topbar .contact-info a:hover {
+#topbar .lokasi-info a:hover {
   color: #fff;
 }
 
-#topbar .contact-info i {
+#topbar .lokasi-info i {
   color: #cc1616;
   line-height: 0;
   margin-right: 5px;
 }
 
-#topbar .contact-info .phone-icon {
+#topbar .lokasi-info .phone-icon {
   margin-left: 15px;
 }
 
@@ -437,22 +437,29 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
+  text-align: right;
 }
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 24px;
+  text-align: right;
+}
+
+#hero p {
+  text-align:right;
+  color:white;
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-5erif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -462,11 +469,24 @@ h6 {
   transition: 0.5s;
   border: 2px solid #fff;
   color: #fff;
+  width:170px;
 }
 
 #hero .btn-get-started:hover {
   background: #cc1616;
   border-color: #cc1616;
+}
+
+#hero li {
+  margin-bottom: 4px;
+  list-style-type: none;
+  padding:0;
+  margin-left:0;
+}
+
+#hero ul {
+  padding:0;
+  text-align: right;
 }
 
 @media (min-width: 1024px) {
@@ -654,16 +674,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# media
 --------------------------------------------------------------*/
-.services .icon-box {
+.media .icon-box {
   text-align: center;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.services .icon-box .icon {
+.media .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -678,13 +698,13 @@ section {
   z-index: 2;
 }
 
-.services .icon-box .icon i {
+.media .icon-box .icon i {
   color: #fff;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box .icon::before {
+.media .icon-box .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -697,42 +717,42 @@ section {
   z-index: -1;
 }
 
-.services .icon-box h4 {
+.media .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.media .icon-box h4 a {
   color: #191919;
 }
 
-.services .icon-box p {
+.media .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.media .icon-box:hover {
   background: #cc1616;
   border-color: #cc1616;
   padding: 70px 20px 90px 20px;
 }
 
-.services .icon-box:hover .icon {
+.media .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.media .icon-box:hover .icon i {
   color: #cc1616;
 }
 
-.services .icon-box:hover .icon::before {
+.media .icon-box:hover .icon::before {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
+.media .icon-box:hover h4 a,
+.media .icon-box:hover p {
   color: #fff;
 }
 
@@ -1121,16 +1141,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# lokasi
 --------------------------------------------------------------*/
-.contact .info-box {
+.lokasi .info-box {
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
 }
 
-.contact .info-box i {
+.lokasi .info-box i {
   font-size: 32px;
   color: #cc1616;
   border-radius: 50%;
@@ -1138,26 +1158,26 @@ section {
   border: 2px dotted #f5a0a0;
 }
 
-.contact .info-box h3 {
+.lokasi .info-box h3 {
   font-size: 20px;
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.contact .info-box p {
+.lokasi .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
+.lokasi .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
 }
 
-.contact .php-email-form .error-message {
+.lokasi .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1166,11 +1186,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.lokasi .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.lokasi .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1179,14 +1199,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.lokasi .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.lokasi .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1198,27 +1218,27 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.lokasi .php-email-form input,
+.lokasi .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.lokasi .php-email-form input::focus,
+.lokasi .php-email-form textarea::focus {
   background-color: #cc1616;
 }
 
-.contact .php-email-form input {
+.lokasi .php-email-form input {
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.lokasi .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.lokasi .php-email-form button[type=submit] {
   background: #cc1616;
   border: 0;
   padding: 10px 24px;
@@ -1226,7 +1246,7 @@ section {
   transition: 0.4s;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.lokasi .php-email-form button[type=submit]:hover {
   background: #e82d2d;
 }
 
@@ -1278,7 +1298,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #0c0c0c;
-  padding: 0 0 30px 0;
+  padding: 30px;
   color: #fff;
   font-size: 14px;
 }
