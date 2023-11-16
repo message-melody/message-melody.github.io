@@ -169,13 +169,10 @@ h6 {
 }
 
 #header .logo {
-  font-size: 25px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  color:white;
 }
 
 #header .logo a {
@@ -597,81 +594,7 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
-/*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
-.why-us {
-  padding-top: 10px;
-}
-
-.why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-}
-
-.why-us .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #ed5b5b;
-}
-
-.why-us .box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: #191919;
-}
-
-.why-us .box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-.why-us .box:hover {
-  background: #cc1616;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
-
-.why-us .box:hover span,
-.why-us .box:hover h4,
-.why-us .box:hover p {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  background: #f2f2f2;
-  padding: 15px 0;
-  text-align: center;
-}
-
-.clients img {
-  width: 50%;
-  filter: grayscale(100);
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-}
-
-.clients img:hover {
-  filter: none;
-  transform: scale(1.2);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    width: 40%;
-  }
-}
+  
 
 /*--------------------------------------------------------------
 # media
@@ -935,83 +858,30 @@ section {
   margin-bottom: 0;
 }
 
-.lokasi .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
+.lokasi .content h3 {
+    font-weight: 600;
+    font-size: 26px;
 }
 
-.lokasi .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+.lokasi .content ul {
+    list-style: none;
+    padding: 0;
 }
 
-.lokasi .php-email-form .error-message br+br {
-  margin-top: 25px;
+.lokasi .content ul li {
+    padding-bottom: 10px;
 }
 
-.lokasi .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+.lokasi .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #cc1616;
 }
 
-.lokasi .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+.lokasi .content p:last-child {
+    margin-bottom: 0;
 }
-
-.lokasi .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.lokasi .php-email-form input,
-.lokasi .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.lokasi .php-email-form input::focus,
-.lokasi .php-email-form textarea::focus {
-  background-color: #cc1616;
-}
-
-.lokasi .php-email-form input {
-  padding: 10px 15px;
-}
-
-.lokasi .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.lokasi .php-email-form button[type=submit] {
-  background: #cc1616;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.lokasi .php-email-form button[type=submit]:hover {
-  background: #e82d2d;
-}
+  
 
 @keyframes animate-loading {
   0% {
@@ -1197,13 +1067,14 @@ section {
 #footer .copyright {
   border-top: 1px solid #262626;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 5px;
+  font-size: 0.8em;
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 0.8em;
   color: #fff;
 }
 
