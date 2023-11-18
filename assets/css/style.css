@@ -492,11 +492,39 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  #hero .p1 {
+    max-width:330px;
+    text-align: left;
+  }
+
+  #hero .p2  {
+    max-width:330px;
+    text-align: left;
+
+  }
 }
 
+/* mobile */
 @media (max-width: 768px) {
   #hero {
     text-align: center;
+  }
+
+  #hero h1{
+    margin-left: 10px;
+  }
+
+  #hero .p1 {
+    max-width:220px;
+    text-align: left;
+    margin-left:10px;
+  }
+
+  #hero .p2  {
+    max-width:330px;
+    text-align: left;
+    margin-left:10px;
+
   }
 
   #hero .container {
