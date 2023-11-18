@@ -15,8 +15,14 @@ body {
   background-color: #191919;
 }
 
+figcaption {
+  background-color: #4c4c4c;
+  padding: 5px;
+  font-size:0.8em;
+}
+
 a {
-  color: #cc1616;
+  color: yellow;
   text-decoration: none;
 }
 
